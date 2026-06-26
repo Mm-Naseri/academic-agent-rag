@@ -1,0 +1,65 @@
+{
+  "roles": [
+    {
+      "id": "DEAN",
+      "role_title": "رئیس دانشکده",
+      "professor_id": "PROF-006",
+      "parent_id": null,
+      "office_room_id": "COMP-BLDG-DEAN-OFFICE-CE",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "021-84060003",
+          "label": "تلفن دفتر ریاست"
+        },
+        {
+          "type": "fax",
+          "value": "021-88460003",
+          "label": "دورنگار دفتر ریاست"
+        }
+      ]
+    },
+    {
+      "id": "VICE_EDUCATION",
+      "role_title": "معاون آموزشی و تحصیلات تکمیلی",
+      "professor_id": "PROF-003",
+      "parent_id": "DEAN",
+      "office_room_id": "COMP-BLDG-VICE-EDU-OFFICE-CE",
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "021-84060004",
+          "label": "تلفن دفتر معاونت آموزشی"
+        }
+      ]
+    },
+    {
+      "id": "VICE_RESEARCH",
+      "role_title": "معاون پژوهشی",
+      "professor_id": "PROF-001",
+      "parent_id": "DEAN",
+      "office_room_id": null,
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "021-84060005",
+          "label": "تلفن دفتر معاونت پژوهشی"
+        }
+      ]
+    },
+    {
+      "id": "HEAD_AI_SOFTWARE",
+      "role_title": "مدیر گروه هوش مصنوعی و نرم‌افزار",
+      "professor_id": "PROF-002",
+      "parent_id": "VICE_EDUCATION",
+      "office_room_id": null,
+      "contacts": [
+        {
+          "type": "phone",
+          "value": "021-84060006",
+          "label": "شماره تماس مدیر گروه"
+        }
+      ]
+    }
+  ]
+}

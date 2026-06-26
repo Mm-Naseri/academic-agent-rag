@@ -1,0 +1,70 @@
+{
+    "plans": [
+        {
+            "id": "SUGGESTED-PLAN-1",
+            "name": "چارت پیشنهادی گروه 1",
+            "semesters": [
+                {
+                    "semester_number": 1,
+                    "recommended_units": 11,
+                    "items": [
+                        { "course_id": "C-PHYS1", "type": "course" },
+                        { "course_id": "C-MATH1", "type": "course" },
+                        { "course_id": "C-PROG-BAS", "type": "course" },
+                        { "name": "گروه معارف", "units": 2, "category": "عمومی", "type": "slot" }
+                    ]
+                },
+                {
+                    "semester_number": 2,
+                    "recommended_units": 12,
+                    "items": [
+                        { "course_id": "C-PHYS2", "type": "course" },
+                        { "course_id": "C-MATH2", "type": "course" },
+                        { "course_id": "C-DIFF", "type": "course" },
+                        { "course_id": "C-PROG-ADV", "type": "course" }
+                    ]
+                },
+                {
+                    "semester_number": 3,
+                    "recommended_units": 3,
+                    "items": [
+                        { "course_id": "C-DATA-STRUCT", "type": "course" }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "SUGGESTED-PLAN-2",
+            "name": "چارت پیشنهادی گروه 2",
+            "semesters": [
+                {
+                    "semester_number": 1,
+                    "recommended_units": 8,
+                    "items": [
+                        { "course_id": "C-MATH1", "type": "course" },
+                        { "course_id": "C-PROG-BAS", "type": "course" },
+                        { "name": "گروه معارف", "units": 2, "category": "عمومی", "type": "slot" }
+                    ]
+                },
+                {
+                    "semester_number": 2,
+                    "recommended_units": 12,
+                    "items": [
+                        { "course_id": "C-PHYS1", "type": "course" },
+                        { "course_id": "C-MATH2", "type": "course" },
+                        { "course_id": "C-DIFF", "type": "course" },
+                        { "course_id": "C-PROG-ADV", "type": "course" }
+                    ]
+                },
+                {
+                    "semester_number": 3,
+                    "recommended_units": 6,
+                    "items": [
+                        { "course_id": "C-PHYS2", "type": "course" },
+                        { "course_id": "C-DATA-STRUCT", "type": "course" }
+                    ]
+                }
+            ]
+        }
+    ]
+}

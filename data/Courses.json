@@ -1,0 +1,76 @@
+{
+    "courses": [
+        {
+            "id": "C-PHYS1",
+            "name": "فیزیک 1",
+            "units": 3,
+            "category": "پایه",
+            "type": "نظری",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        { 
+            "id": "C-MATH1",
+            "name": "ریاضی 1",
+            "units": 3,
+            "category": "پایه",
+            "type": "نظری",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        { 
+            "id": "C-PROG-BAS", 
+            "name": "مبانی کامپیوتر و برنامه‌سازی", 
+            "units": 3, 
+            "category": "اصلی", 
+            "type": "نظری",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        { 
+            "id": "C-PHYS2", 
+            "name": "فیزیک 2", 
+            "units": 3,
+            "category": "پایه", 
+            "type": "نظری",
+            "prerequisites": ["C-PHYS1"],
+            "corequisites": []
+        },
+        { 
+            "id": "C-MATH2", 
+            "name": "ریاضی 2", 
+            "units": 3, 
+            "category": "پایه", 
+            "type": "نظری",
+            "prerequisites": ["C-MATH1"],
+            "corequisites": ["C-DIFF"]
+        },
+        { 
+            "id": "C-DIFF",
+            "name": "معادلات دیفرانسیل", 
+            "units": 3, 
+            "category": "پایه", 
+            "type": "نظری",
+            "prerequisites": [],
+            "corequisites": []
+        },
+        { 
+            "id": "C-PROG-ADV",
+            "name": "برنامه‌سازی پیشرفته", 
+            "units": 3, 
+            "category": "اصلی", 
+            "type": "نظری",
+            "prerequisites": ["C-PROG-BAS"],
+            "corequisites": []
+        },
+        { 
+            "id": "C-DATA-STRUCT", 
+            "name": "ساختار داده", 
+            "units": 3, 
+            "category": "اصلی",
+            "type": "نظری",
+            "prerequisites": ["C-PROG-ADV"],
+            "corequisites": []
+        }
+    ]
+}

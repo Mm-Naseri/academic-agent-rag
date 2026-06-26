@@ -1,0 +1,37 @@
+{
+    "staff": [
+        {
+            "id": "STAFF-01",
+            "name": "آقای احمدی (نمونه)",
+            "role": "کارشناس امور دانشجویی دانشکده",
+            "program": null,
+            "email": "ahmadi.staff@example.com",
+            "phone": ["021-84060001", "021-73060001"],
+            "desk_location": null,
+            "room_id": "MAIN-SA-2F",
+            "tags": ["رفاه", "دانشجویی", "وام", "وام دانشجویی", "امور دانشجویی"]
+        },
+        {
+            "id": "STAFF-02",
+            "name": "خانم رضایی (نمونه)",
+            "role": "مسئول سایت کامپیوتر",
+            "program": null,
+            "email": "rezaei.staff@example.com",
+            "phone": ["021-84060002"],
+            "desk_location": null,
+            "room_id": "PROF-OLD-SITE-CE",
+            "tags": ["سایت", "مطالعه", "کامپیوتر", "کارگاه کامپیوتر"]
+        },
+        {
+            "id": "STAFF-03",
+            "name": "آقای کریمی (نمونه)",
+            "role": "مسئول دفتر ریاست و دانشکده",
+            "program": null,
+            "email": "karimi.staff@example.com",
+            "phone": ["021-84060003"],
+            "desk_location": null,
+            "room_id": "COMP-BLDG-ADMIN-DEAN-OFFICE-MANAGER",
+            "tags": ["هماهنگی حوزه ریاست", "دبیرخانه", "مسئول دفتر ریاست", "حوزه ریاست"]
+        }
+    ]
+}

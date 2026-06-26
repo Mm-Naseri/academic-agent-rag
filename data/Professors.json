@@ -1,0 +1,58 @@
+{
+  "professors": [
+    {
+        "id": "PROF-001",
+        "name": "دکتر علی رضایی (نمونه)",
+        "title": "دانشیار", 
+        "department": "مهندسی کامپیوتر",
+        "office_room_id": ["PROF-OLD-111"],
+        "email": "a.rezaei@example.com",
+        "research_interests": ["طراحی سیستم‌های تحمل‌پذیر خطا (ABFT)", "معماری سیستم‌های پردازش موازی"],
+        "tags": ["استاد", "تحمل‌پذیری خطا", "پردازش موازی", "معماری سیستم های کامپیوتری"],
+        "profile_pages": [
+            "https://example.com/profiles/rezaei"
+        ],
+        "google_scholar_url": "https://scholar.google.com/citations?user=placeholder1"
+    },
+    {
+        "id": "PROF-002",
+        "name": "مهندس رضا کریمی (نمونه)",
+        "title": "مربی", 
+        "department": "مهندسی برق",
+        "office_room_id": ["PROF-OLD-112"],
+        "email": "r.karimi@example.com",
+        "research_interests": ["مخابرات", "ارتباط بی‌سیم"],
+        "tags": ["استاد", "مخابرات", "ارتباط بی‌سیم"],
+        "profile_pages": null,
+        "google_scholar_url": null
+    },
+    {
+        "id": "PROF-003",
+        "name": "دکتر مریم احمدی (نمونه)",
+        "title": "استادیار", 
+        "department": "مهندسی برق",
+        "office_room_id": ["PROF-OLD-203"],
+        "email": "m.ahmadi@example.com",
+        "research_interests": ["سیستم‌های ناوبری پیشرفته", "کنترل غیرخطی"],
+        "tags": ["استاد", "مهندسی کنترل", "ناوبری"],
+        "profile_pages": [
+            "https://example.com/profiles/ahmadi"
+        ],
+        "google_scholar_url": "https://scholar.google.com/citations?user=placeholder2"
+    },
+    {
+        "id": "PROF-006",
+        "name": "دکتر محمد حسینی (نمونه)",
+        "title": "دانشیار", 
+        "department": "مهندسی کامپیوتر",
+        "office_room_id": ["PROF-OLD-208", "COMP-BLDG-DEAN-OFFICE-CE"],
+        "email": "m.hosseini@example.com",
+        "research_interests": ["شبکه های کامپیوتری", "اینترنت اشیاء (IoT)"],
+        "tags": ["استاد", "شبکه های کامپیوتری", "اینترنت اشیاء"],
+        "profile_pages": [
+            "https://example.com/profiles/hosseini"
+        ],
+        "google_scholar_url": "https://scholar.google.com/citations?user=placeholder3"
+    }
+  ]
+}

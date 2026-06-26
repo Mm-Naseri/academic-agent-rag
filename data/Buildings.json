@@ -1,0 +1,51 @@
+{
+  "buildings": [
+    {
+      "id": "MAIN-BLDG",
+      "official_name": "ساختمان شهید حسن فرد اسدی (نمونه)",
+      "common_names": ["ساختمان اصلی", "ساختمان کلاس‌ها"],
+      "type": "آموزشی", 
+      "floors": 4,
+      "status": "active",
+      "description": "اکثر کلاس‌های درسی، اداره آموزش و همچنین اتاق ریاست در این ساختمان واقع شده‌اند.",
+      "location": {
+        "latitude": 35.740689,
+        "longitude": 51.447978
+      },
+      "rooms": ["MAIN-201", "MAIN-SA-2F"]
+    },
+    {
+      "id": "PROF-OLD",
+      "official_name": "ساختمان قدیمی اساتید (نمونه)",
+      "type": "اداری-آموزشی", 
+      "floors": 5,
+      "status": "active",
+      "description": "این ساختمان شامل دفتر اعضای هیئت علمی و سایت کامپیوتر است.",
+      "location": {
+        "latitude": 35.740595,
+        "longitude": 51.448821
+      },
+      "rooms": ["PROF-OLD-SITE-CE", "PROF-OLD-111", "PROF-OLD-112", "PROF-OLD-203", "PROF-OLD-208"]
+    },
+    {
+      "id": "COMP-BLDG",
+      "official_name": "ساختمان اداری دانشکده کامپیوتر (نمونه)",
+      "common_names": ["ساختمان کامپیوتر", "آموزش کامپیوتر"],
+      "type": "اداری-پژوهشی", 
+      "floors": 2,
+      "status": "active",
+      "description": "در این ساختمان، اداره آموزش، دفتر معاونت آموزشی و اتاق ریاست دانشکده کامپیوتر مستقر هستند.",
+      "location": {
+        "latitude": 35.740326,
+        "longitude": 51.448459
+      },
+      "rooms": ["COMP-BLDG-ADMIN-DEAN-OFFICE-MANAGER", "COMP-BLDG-EDU-OFFICE", "COMP-BLDG-DEAN-OFFICE-CE", "COMP-BLDG-VICE-EDU-OFFICE-CE"]
+    },
+    {
+      "id": "CAMPUS-AREA",
+      "official_name": "فضای باز دانشکده (نمونه)",
+      "type": "محوطه",
+      "rooms": ["CAFE-CAMPUS"]
+    }
+  ]
+}
